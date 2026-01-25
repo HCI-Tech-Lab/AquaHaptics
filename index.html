@@ -125,17 +125,6 @@
                   </a>
                 </span>
 
-                <!-- Supplementary PDF link -->
-                <!--span class="link-block">
-                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span>Supplementary</span>
-                  </a>
-                </span-->
-
                 <!-- Github link -->
                 <!--span class="link-block">
                   <a href="https://github.com/YOUR REPO HERE" target="_blank"
@@ -155,6 +144,17 @@
                       <i class="fas fa-globe"></i>
                     </span>
                     <span>DOI</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/Supplementary file_AquaHaptics.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Appendix</span>
                   </a>
                 </span>
               </div>
@@ -225,23 +225,26 @@
   <!-- End teaser video -->
 
   <!-- Image carousel -->
-  <section class="hero is-small is-light">
+  <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <h2 class="title is-3">Core Contributions</h2>
         <div id="results-carousel" class="carousel results-carousel">
 
           <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/Interaction Hierarchy.png" alt="Interaction Hierarchy"
+              style="height: 380px; display: block; margin: 0 auto"/>
             <p class="subtitle-has-text-centered">
               We present the working principle and system overview of AquaHaptics, defining <strong>directional vectors</strong> for hand movements 
               and a hierarchy of <strong>hand–fluid interactions</strong> based on hand movement and posture.
             </p>
-            <!-- Your image here -->
-            <img src="static/images/Interaction Hierarchy.png" alt="Interaction Hierarchy"
-              style="height: 380px; display: block; margin: 0 auto"/>
           </div>
 
           <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/Whole Pipeline.png" alt="Whole Pipeline"
+              style="height: 500px; display: block; margin: 0 auto"/>
             <p class="subtitle-has-text-centered">
               We explored the <strong>size</strong> and shape of phased arrays and distance
               range, enabling effective <strong>finger-level wearable UMH</strong> by simulating the spatial
@@ -249,28 +252,25 @@
               We propose the overall haptic rendering pipeline where <strong>hand positions</strong> are acquired from tracking sensors, 
               followed by motion-dependent <strong>fluid force computation</strong> and rendering <strong>multimodal haptic feedback</strong> through actuators.
             </p>
-            <!-- Your image here -->
-            <img src="static/images/Whole Pipeline.png" alt="Whole Pipeline"
-              style="height: 500px; display: block; margin: 0 auto"/>
           </div>
 
           <div class=" item">
+            <!-- Your image here -->
+            <img src="static/images/Perception Study.png" alt="Perception Study"
+              style="height: 360px; display: block; margin: 0 auto"/>
             <p class="subtitle-has-text-centered">
               To establish a <strong>perceptual reference</strong> for real-world water interactions, participants first immersed one hand in a water tank 
               and performed repetitive motions, focusing on <strong>water pressure sensations</strong> above the palm prior to the VR study.
             </p>
-            <!-- Your image here -->
-            <img src="static/images/Perception Study.png" alt="Perception Study"
-              style="height: 360px; display: block; margin: 0 auto"/>
           </div>
 
           <div class="item">
-            <p class="subtitle-has-text-centered">
-              We present an <strong>underwater swimming scenario</strong> from the application study, in which users interact using both hands.
-            </p>
             <!-- Your image here -->
             <img src="static/images/Application Study.png" alt="Application Study"
               style="height: 360px; display: block; margin: 0 auto"/>
+            <p class="subtitle-has-text-centered">
+              We present an <strong>underwater swimming scenario</strong> from the application study, in which users interact using both hands.
+            </p>
           </div>
 
         </div>
@@ -293,8 +293,14 @@
 
             <div class="publication-video">
               <!-- Youtube embed code here -->
-              <iframe src="https://youtu.be/Wb6hJrp4kCM?si=jG0gNSCofS_Im0TU" frameborder="0" allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
+              <iframe 
+                src="https://www.youtube.com/embed/Wb6hJrp4kCM?si=8HqU4WzpFDd0KZxN" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+              </iframe>
             </div>
           </div>
         </div>
